@@ -43,29 +43,6 @@ NoNapDrive is an intelligent, real-time driver monitoring system that detects **
 
 ---
 
-## 📁 Project Structure
-NoNapDrive/
-├── app/
-│ ├── app.py # Streamlit application
-│ ├── features.py # EAR extraction
-│ ├── model.py # Model loading & inference
-│ ├── state.py # Time-based validation
-│ └── alert.py # Alert handling
-│
-├── notebooks/
-│ └── drowsiness_model_3class.ipynb
-│
-├── models/
-│ └── drowsiness_lstm_3class_tf.keras
-│
-├── assets/
-│ ├── beep.wav
-│ └── alarm.wav
-│
-├── config.yaml
-├── requirements.txt
-└── README.md
-
 ## ▶️ Getting Started
 
 ### 1️⃣ Create virtual environment (Python 3.10)
