@@ -1,0 +1,24 @@
+# ================================
+# NoNapDrive Configuration File
+# ================================
+
+# Number of EAR values fed to LSTM at once
+SEQUENCE_LENGTH: 20
+
+# Time (in seconds) the CRITICAL state must persist
+# before triggering the loud alarm
+DROWSY_TIME: 2.0
+
+# Camera index (0 = default webcam)
+CAMERA_INDEX: 0
+
+# EAR smoothing window size
+EAR_SMOOTH_WINDOW: 5
+
+# MediaPipe confidence thresholds
+MIN_DETECTION_CONFIDENCE: 0.6
+MIN_TRACKING_CONFIDENCE: 0.7
+
+# Alert control
+ENABLE_DROWSY_ALERT: true
+ENABLE_CRITICAL_ALERT: true

@@ -1,0 +1,9 @@
+tensorflow
+opencv-python
+mediapipe
+numpy
+streamlit
+playsound==1.2.2
+pyyaml
+scikit-learn
+matplotlib
