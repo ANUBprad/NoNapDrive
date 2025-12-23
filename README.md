@@ -78,7 +78,7 @@ Open in browser:
 http://localhost:8501
 ```
 
-🚨 Alert Logic
+## 🚨 Alert Logic
 State	Response
 Alert	Normal monitoring
 Drowsy	Mild warning beep
@@ -87,12 +87,12 @@ Critical	Loud alarm after time confirmation
 
 All thresholds and parameters are configurable via config.yaml, allowing easy tuning without modifying code.
 
-👤 Author
+## 👤 Author
 
 Anubhab Pradhan
 BE – Artificial Intelligence & Data Science
 CMR Institute of Technology, Bangalore
 
-📜 License
+## 📜 License
 
 For academic and educational use only.
