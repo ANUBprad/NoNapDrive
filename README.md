@@ -79,12 +79,12 @@ http://localhost:8501
 ```
 
 ## 🚨 Alert Logic
-State	Response
-Alert	Normal monitoring
-Drowsy	Mild warning beep
-Critical	Loud alarm after time confirmation
-⚙️ Configuration
 
+- Alert	-> Normal monitoring
+- Drowsy	->	Mild warning beep
+- Critical	->	Loud alarm after time confirmation
+
+## ⚙️ Configuration
 All thresholds and parameters are configurable via config.yaml, allowing easy tuning without modifying code.
 
 ## 👤 Author
