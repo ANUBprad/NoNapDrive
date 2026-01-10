@@ -79,13 +79,13 @@ py -3.10 -m venv venv310
 venv310\Scripts\activate
 ```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-3️⃣ Train the Model (One-Time)
+### 3️⃣ Train the Model (One-Time)
 
 ```
 jupyter notebook
@@ -101,7 +101,7 @@ After training, place the model file inside:
 models/drowsiness_lstm_3class_tf.keras
 ```
 
-4️⃣ Run the Application
+### 4️⃣ Run the Application
 
 ```
 streamlit run app/app.py
@@ -112,13 +112,15 @@ Open in browser:
 http://localhost:8501
 ```
 
-🚨 Alert Logic
-Driver State	Behavior
-🟢 Alert	Normal monitoring
-🟡 Drowsy	Mild warning beep
-🔴 Critical	Loud alarm after time confirmation
 
-⚙️ Configuration
+## 🚨 Alert Logic
+
+🟢 refers Alert	-> Normal monitoring
+🟡 refers Drowsy	-> Mild warning beep
+🔴 refers Critical	-> Loud alarm after time confirmation
+
+
+## ⚙️ Configuration
 
 All thresholds and runtime parameters can be tuned using:
 ```
@@ -126,19 +128,22 @@ config.yaml
 ```
 This allows behavior changes without modifying code.
 
-📌 Use Cases
+
+## 📌 Use Cases
 
 1. Driver safety systems
 2. Long-distance driving assistance
 3. Academic research in computer vision
 4. Fatigue detection systems
 
-👤 Author
+
+## 👤 Author
 
 Anubhab Pradhan
 BE – Artificial Intelligence & Data Science
 CMR Institute of Technology, Bangalore
 
-📜 License
+
+## 📜 License
 
 This project is intended for academic and educational use only.
