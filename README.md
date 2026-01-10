@@ -1,4 +1,5 @@
 # 🚗 NoNapDrive  
+
 ### Real-Time Driver Drowsiness Detection using AI
 
 NoNapDrive is an intelligent **real-time driver monitoring system** that detects **drowsiness and microsleep** using computer vision and deep learning.  
@@ -70,6 +71,8 @@ NoNapDrive/
 └── .gitignore
 ```
 
+---
+
 ## ▶️ Getting Started
 
 ### 1️⃣ Create Virtual Environment (Python 3.10 recommended)
@@ -112,6 +115,7 @@ Open in browser:
 http://localhost:8501
 ```
 
+---
 
 ## 🚨 Alert Logic
 
@@ -128,6 +132,7 @@ config.yaml
 ```
 This allows behavior changes without modifying code.
 
+---
 
 ## 📌 Use Cases
 
@@ -140,7 +145,9 @@ This allows behavior changes without modifying code.
 ## 👤 Author
 
 Anubhab Pradhan
+
 BE – Artificial Intelligence & Data Science
+
 CMR Institute of Technology, Bangalore
 
 
