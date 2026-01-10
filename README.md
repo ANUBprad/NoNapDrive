@@ -124,6 +124,7 @@ http://localhost:8501
 🔴 refers Critical	-> Loud alarm after time confirmation
 
 
+
 ## ⚙️ Configuration
 
 All thresholds and runtime parameters can be tuned using:
@@ -145,9 +146,7 @@ This allows behavior changes without modifying code.
 ## 👤 Author
 
 Anubhab Pradhan
-
 BE – Artificial Intelligence & Data Science
-
 CMR Institute of Technology, Bangalore
 
 
